@@ -17,8 +17,8 @@ class Config(object):
         self.chromeWebdriver = os.path.abspath('..' + '/webdrivers' + '/chromedriver')
         self.firefoxWebdriver = os.path.abspath('..' + '/webdrivers' + '/geckodriver')
         self.ieWebdriver = os.path.abspath('..' + '/webdrivers' + '/IEDriverServer')
-        self.operaWebdriver = 'PATH TO WEBDRIVER'
-        self.phantomjsWebdriver = 'PATH TO WEBDRIVER'
+        self.operaWebdriver = ('PATH TO WEBDRIVER')
+        self.phantomjsWebdriver = ('PATH TO WEBDRIVER')
 
         # call path to webdriver from testscripts
     def get_ChromeWebdriver(self):

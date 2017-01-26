@@ -2,6 +2,7 @@
 *.bat
 *.exe
 *.ps1
+*.log
 
 env/
 .idea/*
