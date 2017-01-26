@@ -20,7 +20,7 @@ class Config(object):
         self.operaWebdriver = ('PATH TO WEBDRIVER')
         self.phantomjsWebdriver = ('PATH TO WEBDRIVER')
 
-        # call path to webdriver from testscripts
+# call path to webdriver from testscripts
     def get_ChromeWebdriver(self):
         return self.chromeWebdriver
 
