@@ -1,0 +1,10 @@
+*.pyc
+*.bat
+*.exe
+*.ps1
+
+env/
+.idea/*
+webdrivers/geckodriver
+webdrivers/chromedriver
+webdrivers/EDriverServer
